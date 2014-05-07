@@ -3,7 +3,7 @@ sc-anagram
 
 Anagram coding exercise for Utah Software Craftsmanship meetup
 
-This is my sample code for the coding exercise. You can read more about it (here)[]
+This is my sample code for the coding exercise. You can read more about it [on my blog](http://nmajor.com/anagram-programming-excercise/)
 
 Exercise:
 Write a program that will generate all of the possible anagrams for the word "documenting"
