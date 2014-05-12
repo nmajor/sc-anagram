@@ -6,7 +6,7 @@ class Anagram
 
     partial_anagrams.each do |pa_word|
       o = origin.dup
-      pa_word.split("").each {|letter| o.delete! letter }
+      pa_word.split("").each {|letter| o.sub!(letter,'') }
 
       partial_anagrams(o, false).each do |pa_extra|
         list.push "#{pa_word} #{pa_extra}"
@@ -24,7 +24,7 @@ class Anagram
 
       word.split("").each do |letter|
         if o.include? letter or letter == "'"
-          o.delete! letter
+          o.sub!(letter,'')
         else
           match = false
           break
