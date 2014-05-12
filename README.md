@@ -1,7 +1,7 @@
 sc-anagram
 ==========
 
-Anagram coding exercise for Utah Software Craftsmanship meetup
+Anagram coding exercise I prepared for Utah Software Craftsmanship meetup
 
 This is my sample code for the coding exercise. You can read more about it [on my blog](http://nmajor.com/anagram-programming-excercise/)
 
